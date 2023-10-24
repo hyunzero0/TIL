@@ -5,9 +5,11 @@
 
 2. [스프링 웹 개발 기초](#스프링-웹-개발-기초)
 
+3. [회원 관리 예제 - 백엔드 개발](#회원-관리-예제---백엔드-개발)
+
 3. [스프링 빈과 의존관계](#스프링-빈과-의존관계)
 
-4. [회원 관리 예제](#회원-관리-예제)
+4. [회원 관리 예제 - 웹 MVC 개발](#회원-관리-예제---웹-mvc-개발)
 
 5. [스프링 DB 접근 기술](#스프링-db-접근-기술)
 
@@ -112,9 +114,44 @@ https://start.spring.io
 
 ## 스프링 웹 개발 기초
 
+### ✅ 정적 컨텐츠
+
+스프링 부트 정적 컨텐츠 기능
+
+![Alt text](image-1.png)
+
+<br>
+
+### ✅ MVC와 템플릿 엔진
+
+MVC : Model, View, Controller
+
+![Alt text](image-2.png)
+
+<br>
+
+### ✅ API
+
+- ```@ResponseBody```를 사용하면 뷰 리졸버(```viewResolver```)를 사용하지 않음
+- 대신 HTTP의 BODY에 문자 내용을 직접 반환
+- ```@ResponseBody```를 사용하고, 객체를 반환하면 객체가 JSON으로 변환
+
+![Alt text](image-3.png)
+
+- ```@ResponseBody``` 를 사용
+  - HTTP의 BODY에 문자 내용을 직접 반환
+  - ```viewResolver``` 대신에 ```HttpMessageConverter```가 동작
+  - 기본 문자처리 : ```StringHttpMessageConverter```
+  - 기본 객체처리 : ```MappingJackson2HttpMessageConverter```
+  - byte 처리 등등 기타 여러 ```HttpMessageConverter```가 기본으로 등록되어 있음
+
+<br>
+
+## 회원 관리 예제 - 백엔드 개발
+
 ## 스프링 빈과 의존관계
 
-## 회원 관리 예제
+## 회원 관리 예제 - 웹 MVC 개발
 
 ## 스프링 DB 접근 기술
 
