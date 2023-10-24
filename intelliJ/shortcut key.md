@@ -2,7 +2,7 @@
 
 **Import Class** :  ```Alt``` + ```Shift``` + ```Enter``` <br>
 **Import 최적화** : ```Ctrl``` + ```Alt``` + ```O``` <br>
-**static import** : ```Alt``` + ```Enter``` <br>
+**static import && 람다로 변경** : ```Alt``` + ```Enter``` <br>
 **옵션 확인하기** : ```Ctrl``` + ```P``` <br>
 **getter and setter 또는 생성자 등** : ```Alt``` + ```Insert``` (Lombok으로 대체 가능) <br>
 **인터페이스 메소드 구현** : ```Ctrl``` + ```I``` <br>
@@ -13,4 +13,5 @@
 **Create Test** : ```Ctrl``` + ```Shift``` + ```T``` <br>
 **코드 한 줄 복사** : ```Ctrl``` + ```D``` <br>
 **코드 이동** : ```Ctrl``` + ```Shift``` + ```↑``` <br>
-**이전 실행한 것 다시 실행** : ```Shift``` + ```F10``` <br> 
+**이전 실행한 것 다시 실행** : ```Shift``` + ```F10``` <br>
+**최근 파일 보기** : ```Ctrl``` + ```E``` <br>
