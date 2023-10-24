@@ -79,7 +79,7 @@ https://start.spring.io
 - 스프링 부트가 제공하는 Welcome Page 기능
   - ```static/index.html```을 올려두면 Welcome page 기능 제공
 - 동작 환경
-![동작 환경 그림](image.png)
+![동작 환경 그림](./img/image.png)
   - 컨트롤러에서 리턴 값으로 문자를 반환하면 뷰 리졸버(```viewResolver```)가 화면을 찾아 처리
     - 스프링 부트 템플릿 기본 viewName 매핑
     - ```resources:templates/``` + {viewName} + ```.html```
@@ -118,7 +118,7 @@ https://start.spring.io
 
 스프링 부트 정적 컨텐츠 기능
 
-![Alt text](image-1.png)
+![Alt text](./img/image-1.png)
 
 <br>
 
@@ -126,7 +126,7 @@ https://start.spring.io
 
 MVC : Model, View, Controller
 
-![Alt text](image-2.png)
+![Alt text](./img/image-2.png)
 
 <br>
 
@@ -136,7 +136,7 @@ MVC : Model, View, Controller
 - 대신 HTTP의 BODY에 문자 내용을 직접 반환
 - ```@ResponseBody```를 사용하고, 객체를 반환하면 객체가 JSON으로 변환
 
-![Alt text](image-3.png)
+![Alt text](./img/image-3.png)
 
 - ```@ResponseBody``` 를 사용
   - HTTP의 BODY에 문자 내용을 직접 반환
