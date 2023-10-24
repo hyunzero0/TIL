@@ -9,9 +9,10 @@
 **괄호 중간에 개행** : ```Ctrl``` + ```Shift``` + ```Enter``` <br>
 **변수 이름 한 번에 변경** : ```Shift``` + ```F6``` <br>
 **리턴 변수 자동생성** : ```Ctrl``` + ```Alt``` + ```V``` <br>
-**Refactor this** : ```Ctrl``` + ```Shift``` + ```Enter``` <br>
+**Refactor this** : ```Ctrl``` + ```Shift``` + ```Alt``` + ```T``` <br>
 **Create Test** : ```Ctrl``` + ```Shift``` + ```T``` <br>
 **코드 한 줄 복사** : ```Ctrl``` + ```D``` <br>
 **코드 이동** : ```Ctrl``` + ```Shift``` + ```↑``` <br>
 **이전 실행한 것 다시 실행** : ```Shift``` + ```F10``` <br>
 **최근 파일 보기** : ```Ctrl``` + ```E``` <br>
+**Inline variable** : ```Alt``` + ```Shift``` + ```Enter``` <br>
